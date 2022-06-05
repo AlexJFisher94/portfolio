@@ -1,0 +1,104 @@
+body {
+background-image: url("images/background.jpg");
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+@font-face {
+    font-family: 'existencelight';
+    src: url('fonts/existence-light-webfont.woff2') format('woff2'),
+         url('fonts/existence-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'existencestencil_light';
+    src: url('fonts/existence-stencillight-webfont.woff2') format('woff2'),
+         url('fonts/existence-stencillight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'existenceunicase_light';
+    src: url('fonts/existence-unicaselight-webfont.woff2') format('woff2'),
+         url('fonts/existence-unicaselight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1 {
+    font-family: 'existencelight';
+    font-size: 100px;
+    font-weight: 500;
+    color: rgb(171, 171, 171);
+    margin-left: 60px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+h2 {
+    font-family: 'existencelight';
+    font-size: 32px;
+    color: rgb(124, 213, 207);
+    margin-left: 65px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.intro {
+    font-size: 18px;
+    margin-top: 110px;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: rgb(171, 171, 171);
+    font-family: 'existencelight';
+}
+
+.view-work {
+    font-family: 'existencelight';
+    font-size: 20px;
+    color: rgb(124, 213, 207);
+    background-color: rgb(30, 36, 36);
+    border: 1px solid rgb(124, 213, 207);
+    border-radius: 4px;
+    margin-left: 60px;
+    padding: 5px 15px;
+}
+
+  .icon {
+      width: 50px;
+      height: auto;
+  }
+
+  footer {
+      position: absolute;
+      bottom: 0;
+      margin-left: 10px;
+      margin-bottom: 10px;
+  }
+
+
+
