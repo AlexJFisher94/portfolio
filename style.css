@@ -313,6 +313,8 @@ background-size: cover;
       }
     
       footer {
+          display: flex;
+          gap: 10px;
           position: absolute;
           bottom: 0;
           margin-left: 10px;
@@ -323,4 +325,108 @@ background-size: cover;
           display: flex;
           justify-content: space-evenly;
       }
+}
+
+@media only screen and (max-width: 428px) {
+
+    h1 {
+        font-family: 'existencelight';
+        font-size: 50px;
+        font-weight: 500;
+        color: rgb(212, 212, 212);
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 50px;
+        margin-top: 40px;
+    }
+    
+    h2 {
+        font-family: 'existencelight';
+        font-size: 18px;
+        color: rgb(124, 213, 207);
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    
+    .intro {
+        font-size: 16px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        gap: 28px;
+        list-style: none;
+        color: white;
+        font-size: 16px;
+        font-family: 'existencelight';
+    }
+    
+    li:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+    .button-side {
+        display: none;
+    }
+    
+    .button-under {
+        display: block;
+        font-family: 'existencelight';
+        font-size: 16px;
+        color: rgb(124, 213, 207);
+        background-color: rgb(30, 36, 36);
+        border: 1px solid rgb(124, 213, 207);
+        border-radius: 4px;
+        padding: 5px 15px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .button-under:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+      .icon {
+          width: 50px;
+          height: auto;
+          padding-right: 15px;
+      }
+    
+      .icon:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: ease-in-out;
+          transition-duration: .1s;
+      }
+    
+      footer {
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
