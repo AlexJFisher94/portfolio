@@ -39,66 +39,288 @@ background-size: cover;
 
 }
 
-h1 {
-    font-family: 'existencelight';
-    font-size: 100px;
-    font-weight: 500;
-    color: rgb(171, 171, 171);
-    margin-left: 60px;
-    margin-bottom: 20px;
-    margin-top: 0;
+@media only screen and (min-width: 992px) {
+
+    h1 {
+        font-family: 'existencelight';
+        font-size: 100px;
+        font-weight: 500;
+        color: rgb(212, 212, 212);
+        margin-left: 60px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    h2 {
+        font-family: 'existencelight';
+        font-size: 32px;
+        color: rgb(124, 213, 207);
+        margin-left: 65px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+
+    .intro {
+        font-size: 18px;
+        margin-top: 110px;
+        margin-bottom: 20px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: start;
+    }
+
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        color: white;
+        font-family: 'existencelight';
+    }
+
+    li:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+
+    .button-side {
+        font-family: 'existencelight';
+        font-size: 20px;
+        color: rgb(124, 213, 207);
+        background-color: rgb(30, 36, 36);
+        border: 1px solid rgb(124, 213, 207);
+        border-radius: 4px;
+        margin-left: 60px;
+        padding: 5px 15px;
+    }
+
+    .button-side:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+
+    .button-under {
+        display: none;
+    }
+
+    .icon {
+        width: 50px;
+        height: auto;
+        padding-right: 15px;
+    }
+
+    .icon:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 }
 
-h2 {
-    font-family: 'existencelight';
-    font-size: 32px;
-    color: rgb(124, 213, 207);
-    margin-left: 65px;
-    margin-top: 0;
-    margin-bottom: 40px;
+@media only screen and (max-width: 992px) {
+
+    h1 {
+        font-family: 'existencelight';
+        font-size: 100px;
+        font-weight: 500;
+        color: rgb(212, 212, 212);
+        margin-left: 60px;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-family: 'existencelight';
+        font-size: 32px;
+        color: rgb(124, 213, 207);
+        margin-left: 65px;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    
+    .intro {
+        font-size: 18px;
+        margin-top: 110px;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: start;
+    }
+    
+    ul {
+        display: flex;
+        gap: 40px;
+        list-style: none;
+        color: white;
+        font-family: 'existencelight';
+    }
+    
+    li:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+    .button-side {
+        display: none;
+    }
+    
+    .button-under {
+        font-family: 'existencelight';
+        font-size: 20px;
+        color: rgb(124, 213, 207);
+        background-color: rgb(30, 36, 36);
+        border: 1px solid rgb(124, 213, 207);
+        border-radius: 4px;
+        margin-left: 65px;
+        padding: 5px 15px;
+    }
+
+    .button-under {
+        display: block; 
+    }
+
+    .button-under:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+      .icon {
+          width: 50px;
+          height: auto;
+          padding-right: 15px;
+      }
+    
+      .icon:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: ease-in-out;
+          transition-duration: .1s;
+      }
+    
+      footer {
+          position: absolute;
+          bottom: 0;
+          margin-left: 10px;
+          margin-bottom: 10px;
+      }
 }
 
-.intro {
-    font-size: 18px;
-    margin-top: 110px;
-    margin-bottom: 20px;
+@media only screen and (max-width:600px) {
+
+    h1 {
+        font-family: 'existencelight';
+        font-size: 80px;
+        font-weight: 500;
+        color: rgb(212, 212, 212);
+        text-align: center;
+        margin-left: 0;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    
+    h2 {
+        font-family: 'existencelight';
+        font-size: 24px;
+        color: rgb(124, 213, 207);
+        text-align: center;
+        margin-left: 0;
+        margin-top: 0;
+        margin-bottom: 60px;
+    }
+    
+    .intro {
+        font-size: 16px;
+        margin-top: 110px;
+        margin-bottom: 20px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    ul {
+        display: flex;
+        justify-content: center;
+        padding-left: 0px;
+        gap: 50px;
+        list-style: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'existencelight';
+    }
+    
+    li:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+    .button-side {
+        display: none;
+    }
+    
+    .button-under {
+        display: block;
+        font-family: 'existencelight';
+        font-size: 20px;
+        color: rgb(124, 213, 207);
+        background-color: rgb(30, 36, 36);
+        border: 1px solid rgb(124, 213, 207);
+        border-radius: 4px;
+        padding: 5px 15px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .button-under:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: ease-in-out;
+        transition-duration: .1s;
+    }
+    
+      .icon {
+          width: 50px;
+          height: auto;
+          padding-right: 15px;
+      }
+    
+      .icon:hover {
+          cursor: pointer;
+          transform: scale(1.1);
+          transition: ease-in-out;
+          transition-duration: .1s;
+      }
+    
+      footer {
+          position: absolute;
+          bottom: 0;
+          margin-left: 10px;
+          margin-bottom: 10px;
+      }
+
+      .footer {
+          display: flex;
+          justify-content: space-evenly;
+      }
 }
-
-nav {
-    display: flex;
-    justify-content: start;
-}
-
-ul {
-    display: flex;
-    gap: 40px;
-    list-style: none;
-    color: rgb(171, 171, 171);
-    font-family: 'existencelight';
-}
-
-.view-work {
-    font-family: 'existencelight';
-    font-size: 20px;
-    color: rgb(124, 213, 207);
-    background-color: rgb(30, 36, 36);
-    border: 1px solid rgb(124, 213, 207);
-    border-radius: 4px;
-    margin-left: 60px;
-    padding: 5px 15px;
-}
-
-  .icon {
-      width: 50px;
-      height: auto;
-  }
-
-  footer {
-      position: absolute;
-      bottom: 0;
-      margin-left: 10px;
-      margin-bottom: 10px;
-  }
-
-
-
